@@ -86,7 +86,30 @@ footer {
     background-color: #123;
     display: flex;
 }
-  
+
+.transition-2 {
+    height: 30vh;
+    background: linear-gradient(#2364dd, #f3ea6e);
+}
+
+#projects {
+    background-color: #f3ea6e;
+    text-align: center;
+    height: 30vh;
+}
+
+#projects h1 {
+    padding: 2%;
+}
+
+#projects h2 {
+    padding: 1%;
+}
+
+#projects a {
+    color: #2011a2;
+}
+
 footer p{
     color: #44dd22;
 }
