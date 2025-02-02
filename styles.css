@@ -79,13 +79,6 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 }
-  
-footer {
-    padding: 2% 0 2%;
-    width: 100%;
-    background-color: #123;
-    display: flex;
-}
 
 .transition-2 {
     height: 30vh;
@@ -98,16 +91,43 @@ footer {
     height: 30vh;
 }
 
+.projects-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
 #projects h1 {
     padding: 2%;
 }
 
-#projects h2 {
-    padding: 1%;
+
+.project-one-name {
+    grid-row: 1;
+}
+
+.project-one-desc {
+    grid-row: 2;
+}
+
+.project-two-name {
+    grid-row: 1;
+}
+
+.project-two-desc {
+    grid-row: 2;
 }
 
 #projects a {
     color: #2011a2;
+}
+
+footer {
+    padding: 2% 0 2%;
+    width: 100%;
+    background-color: #123;
+    display: flex;
 }
 
 footer p{
